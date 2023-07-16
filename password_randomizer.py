@@ -38,16 +38,6 @@ class password_digit_randomizer():
             nom_list = []
         print("Passwortliste: ", password_list)
 
-        real_password_list = []
-        for i in password_list:
-            for a in i:
-                real_password_list.append(a)
-        real_password = "".join(real_password_list)
-        print("Passwort: ", real_password)
-        div = 5
-        for i in password_list:
-            y = password_list.index(i)
-            if y % div == 0:
-                x = real_password.split(password_list[y])
-        print("Gesplittetes Passwort", x)
-    createPassword(3)
+
+
+
